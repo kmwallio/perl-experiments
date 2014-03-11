@@ -1,4 +1,3 @@
-perl-experiments
-================
+# Perl Experiments
 
-Experiments in perl?
+This is a collection of use(ful|less) perl experiments and whatnot...
