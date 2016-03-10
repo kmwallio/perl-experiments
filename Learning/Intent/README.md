@@ -32,9 +32,9 @@ At 7 remind me to do homework
 
 ### action.txt
 
-`current_time
+<pre>current_time
 current_time
 remind_me(8, 'take out the trash')
 remind_me(7, 'do homework')
-[...]`
+[...]</pre>
 
