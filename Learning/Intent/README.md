@@ -6,7 +6,18 @@ The goal is to have a list of known actions, "What time is it?" and "What is the
 
 ## Methods Used:
 
-*None yet.*
+We break the problem up into 3 layers: Tokenization, Classification, and Extraction.
+
+### Tokenization
+
+### Classification
+
+* Nearest Neighbors
+* ID3
+
+### Extraction
+
+* Generated State Machine
 
 ## Training Set
 
@@ -37,4 +48,3 @@ current_time
 remind_me(8, 'take out the trash')
 remind_me(7, 'do homework')
 [...]</pre>
-
