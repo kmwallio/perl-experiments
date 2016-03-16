@@ -50,3 +50,24 @@ class LPair {
     return $.phrase.hasWord($word);
   }
 }
+
+class ID3 {
+  has LPair @!data;
+  has ID3 @!children;
+  has Str $!split;
+
+  method add(LPair $pair) {
+    @!data.push($pair);
+  }
+
+  submethod getEntropy($word) {
+  }
+
+  submethod learnData() {
+  }
+
+}
+
+sub MAIN {
+  say "Hello world!";
+}
