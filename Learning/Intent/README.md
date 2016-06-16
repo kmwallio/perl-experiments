@@ -8,43 +8,4 @@ The goal is to have a list of known actions, "What time is it?" and "What is the
 
 We break the problem up into 3 layers: Tokenization, Classification, and Extraction.
 
-### Tokenization
-
-### Classification
-
-* Nearest Neighbors
-* ID3
-
-### Extraction
-
-* Generated State Machine
-
-## Training Set
-
-The training set contains a list of phrase -> action pairs.  Actions are allowed to take arguments from the phrase.
-
-<pre>What time is it -> current_time
-What is the current time -> current_time
-Remind me at 8 to take out the trash -> remind_me(8, 'take out the trash')
-Remind me to let the dog out at 12 -> remind_me(12, 'let the dog out')
-[...]</pre>
-
-## Test Set
-
-The test set consists of 2 files.  A phrase file, and a action file.  Each line of the action file corresponds to the proper response for the phrase file.
-
-### phrase.txt
-
-<pre>What time is it
-What is the current time
-Remind me at 8 to take out the trash
-At 7 remind me to do homework
-[...]</pre>
-
-### action.txt
-
-<pre>current_time
-current_time
-remind_me(8, 'take out the trash')
-remind_me(7, 'do homework')
-[...]</pre>
+This project has been moved to [Acme::Skynet](https://github.com/kmwallio/Acme-Skynet).
